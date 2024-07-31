@@ -7,11 +7,11 @@ import json
 # Set up Cohere client
 co = cohere.Client(os.environ["COHERE_API_KEY"]) # Get your API key: https://dashboard.cohere.com/api-keys
 
-def generate_advice(healthcare, temperature):
+def gen_advice(healthcare, temperature):
   """
   Generate a health advice given a healthcare topic
   Arguments:
-    industry(str): Healthcare Topic
+    healthcare(str): 
     temperature(str): the Generate model `temperature` value
   Returns:
     response(str): 
@@ -33,7 +33,7 @@ Healthcare: Brain Health
 Advice: Try to manage stress, focus on the present, Take a break if you need to, and take some time off to reduce stress
 
 ## Your Task
-Healthcare: {healthcare topic}
+Healthcare: {healthcare }
 Advice:"""
 
 # Call the Cohere Chat endpoint
@@ -51,7 +51,7 @@ form = st.form(key="user_settings")
 with form:
   st.write("Enter Healthcare topic [Example: Ear Infections, Depression, Digestive Problems] ")
   # User input - Healthcare
-  Healthcare_Topic_input = st.text_input("Helathcare Topic", key = "Healthcare_input")
+  Healthcare_Topic_input = st.text_input("Healthcare", key = "Healthcare_input")
 
   # Create a two-column view
   col1, col2 = st.columns(2)
@@ -85,6 +85,6 @@ with form:
       for i in range(num_input):
           st.markdown("""---""")
           Healthcare_advice = generate_idea(Healthcare_Topic__input, creativity_input)
-          st.markdown("# Healthcare Consult)
+          st.markdown("##### " + Healthcare Consult)
           st.write(Healthcare_advice)
           my_bar.progress((i+1)/num_input)
