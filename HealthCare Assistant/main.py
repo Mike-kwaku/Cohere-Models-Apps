@@ -7,7 +7,7 @@ import json
 # Set up Cohere client
 co = cohere.Client(os.environ["COHERE_API_KEY"]) # Get your API key: https://dashboard.cohere.com/api-keys
 
-def generate_advice(healthcare topic, temperature):
+def generate_advice(healthcare, temperature):
   """
   Generate a health advice given a healthcare topic
   Arguments:
@@ -20,21 +20,21 @@ def generate_advice(healthcare topic, temperature):
 Generate a healthcare advice given healthcare topic. Return the healthcare advice and without additional commentary.
 
 ## Examples
-Healthcare Topic : Digestive Health
-Healthcare Advice: Drink plenty of fluids (water, sports drinks, fruit juice) to keep from getting dehydrated. Avoid alcohol, caffeine, and dairy.
+Healthcare: Digestive Health
+Advice: Drink plenty of fluids (water, sports drinks, fruit juice) to keep from getting dehydrated. Avoid alcohol, caffeine, and dairy.
 
-Healthcare Topic : Eye Health
-Healthcare Advice: Exercise regularly. Use protective eyewear during activities that may be dangerous to your eyes, such as yard work, sports or home repairs.
+Healthcare: Eye Health
+Advice: Exercise regularly. Use protective eyewear during activities that may be dangerous to your eyes, such as yard work, sports or home repairs.
 
-Healthcare Topic: Ear Health
-Healthcare Advice: Limit your exposure to loud noises. Wear protective headgear or earplugs when the noise gets too loud.  
+Healthcare: Ear Health
+Advice: Limit your exposure to loud noises. Wear protective headgear or earplugs when the noise gets too loud.  
 
-Healthcare Topic: Brain Health
-Healthcare Advice: Try to manage stress, focus on the present, Take a break if you need to, and take some time off to reduce stress
+Healthcare: Brain Health
+Advice: Try to manage stress, focus on the present, Take a break if you need to, and take some time off to reduce stress
 
 ## Your Task
-Healthcare topic: {healthcare topic}
-Healthcare advice:"""
+Healthcare: {healthcare topic}
+Advice:"""
 
 # Call the Cohere Chat endpoint
   response = co.chat( 
@@ -50,8 +50,8 @@ st.title("🚀 Healthcare Consult")
 form = st.form(key="user_settings")
 with form:
   st.write("Enter Healthcare topic [Example: Ear Infections, Depression, Digestive Problems] ")
-  # User input - Healthcare Topic
-  Healthcare_Topic_input = st.text_input("Helathcare Topic", key = "Healthcare_Topic_input")
+  # User input - Healthcare
+  Healthcare_Topic_input = st.text_input("Helathcare Topic", key = "Healthcare_input")
 
   # Create a two-column view
   col1, col2 = st.columns(2)
