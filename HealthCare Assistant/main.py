@@ -51,7 +51,7 @@ form = st.form(key="user_settings")
 with form:
   st.write("Enter Healthcare topic [Example: Ear Infections, Depression, Digestive Problems] ")
   # User input - Healthcare
-  Healthcare_Topic_input = st.text_input("Healthcare", key = "Healthcare_input")
+  Healthcare_input = st.text_input("Healthcare", key = "Healthcare_input")
 
   # Create a two-column view
   col1, col2 = st.columns(2)
@@ -84,7 +84,7 @@ with form:
 
       for i in range(num_input):
           st.markdown("""---""")
-          Healthcare_advice = generate_idea(Healthcare_Topic__input, creativity_input)
+          Healthcare_advice = generate_idea(Healthcare_input, creativity_input)
           st.markdown("##### " + Healthcare Consult)
           st.write(Healthcare_advice)
           my_bar.progress((i+1)/num_input)
