@@ -1,4 +1,5 @@
 import cohere
+import os
 import streamlit as st
 
 co = cohere.Client(os.environ["COHERE_API_KEY"])
