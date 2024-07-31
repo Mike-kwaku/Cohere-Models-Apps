@@ -12,7 +12,7 @@ def generate_ans(qstn):
   bot_ans = response.generations[0].text
   bot_ans = bot_ans.replace("\n\n--","").replace("\n--","").strip()
 
-  return bot_answer
+  return bot_ans
 
 
 # The front end code starts here
