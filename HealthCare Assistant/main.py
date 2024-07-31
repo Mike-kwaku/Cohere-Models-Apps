@@ -85,6 +85,5 @@ with form:
       for i in range(num_input):
           st.markdown("""---""")
           Healthcare_advice = generate_idea(Healthcare_input, creativity_input)
-          st.markdown("##### " + Healthcare Consult)
           st.write(Healthcare_advice)
           my_bar.progress((i+1)/num_input)
