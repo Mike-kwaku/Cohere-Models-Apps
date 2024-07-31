@@ -3,7 +3,7 @@ import os
 import streamlit as st
 
 co = cohere.Client(os.environ["COHERE_API_KEY"])
-cohere_model='command-r'
+cohere_model='command'
 
 def generate_ans(qstn):
 
