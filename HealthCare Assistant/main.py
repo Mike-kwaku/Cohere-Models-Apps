@@ -76,7 +76,7 @@ with form:
   generate_button = form.form_submit_button("Generate Healthcare advice")
 
   if generate_button:
-    if Healthcare_Topic_input == "":
+    if Healthcare_input == "":
       st.error("Healthcare topic field cannot be blank")
     else:
       my_bar = st.progress(0.05)
