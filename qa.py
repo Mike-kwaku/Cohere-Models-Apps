@@ -23,9 +23,9 @@ st.write("Enter your question here: [Example: Who is the PM of UK] ")
 
 qstn_input = st.text_input("Question", key = "qstn_input")
 
-with form:
+with st.form:
     
- generate_button = form.form_submit_button("Answer Question")
+ generate_button = st.form_submit_button("Answer Question")
 
  if generate_button:
     if qstn_input == "":
