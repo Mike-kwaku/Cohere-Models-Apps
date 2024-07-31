@@ -19,13 +19,13 @@ def generate_ans(qstn):
 
 st.title("Question & answer bot with Cohere")
 
-st.write("Enter your question here: [Example: Who is the PM of UK] ")
-
-qstn_input = st.text_input("Question", key = "qstn_input")
-
 form = st.form("my form")
 with form:     
- generate_button = st.form_submit_button("Answer Question")
+
+ st.write("Enter your question here: [Example: Who is the PM of UK] ")
+
+ qstn_input = st.text_input("Question", key = "qstn_input")
+ generate_button = form.form_submit_button("Answer Question")
 
  if generate_button:
     if qstn_input == "":
