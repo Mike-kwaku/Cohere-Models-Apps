@@ -28,3 +28,5 @@ response = co.embed_jobs.create(
 response = co.wait(job)
 
 print(response)
+
+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
