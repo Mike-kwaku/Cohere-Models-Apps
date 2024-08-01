@@ -1,0 +1,4 @@
+cohere 
+pandas 
+pymongo 
+minio 
