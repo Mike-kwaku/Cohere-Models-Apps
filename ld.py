@@ -12,6 +12,6 @@ driver.get("https://olympics.com/en/paris-2024/medals")
 
 try:        
   elem = WebDriverWait(driver, 30).until(EC.presence_of_element_located((By.CLASS_NAME, "dataTables_scrollBody")))
- finally:        
+finally:        
   print('loaded')
 
