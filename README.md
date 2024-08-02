@@ -16,7 +16,9 @@ This repository contains the following AI applications built with Cohere [comman
 
 ## How It Works 
 
-### HealthCare Assitant 
+### Q/A Bot 
+
+
 
 
 
