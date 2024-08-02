@@ -14,6 +14,13 @@ This repository contains the following AI applications built with Cohere [comman
 [Semantic Search]() : This app demonstrates how to improve search accuracy - semantically - with Cohere embed using Mondb vector search operator.  
 
 
+## How It Works 
+
+### HealthCare Assitant 
+
+
+
+
 
 
 
