@@ -8,7 +8,7 @@ This repository contains the following AI applications built with Cohere [comman
 
 [Q/A Bot]() : This app provides answers to generic questions from users. 
 
-[Semantic Search]() : This app demonstrates how to improve search accuracy with Cohere embed using Mondb vector search operator.  
+[Semantic Search]() : This app demonstrates how to improve search accuracy - semantically - with Cohere embed using Mondb vector search operator.  
 
 
 
