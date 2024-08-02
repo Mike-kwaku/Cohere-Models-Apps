@@ -2,11 +2,11 @@
 
 This repository contains the following AI applications built with Cohere [command](https://cohere.com/command?_gl=1*1bccwue*_gcl_au*MTI0ODM1NjY2OS4xNzIwNjIxMjc1*_ga*NDg5MDI2MzAuMTcyMDYyMTI4MQ..*_ga_CRGS116RZS*MTcyMjU4MDUwNi40Ny4wLjE3MjI1ODA1MDYuNjAuMC4w), and [embed](https://cohere.com/embed?_gl=1*5gvy8z*_gcl_au*MTI0ODM1NjY2OS4xNzIwNjIxMjc1*_ga*NDg5MDI2MzAuMTcyMDYyMTI4MQ..*_ga_CRGS116RZS*MTcyMjU4MDYxMi40Ny4wLjE3MjI1ODA2MTIuNjAuMC4w) models.   
 
-[HealthCare Assistant]()
+[HealthCare Assistant]() :  This app responds to healthcare queries from users with relevants answers. 
 
-[Q/A Bot]() 
+[Q/A Bot]() : This app responds to generic questions from users. 
 
-[Semantic Search]() 
+[Semantic Search]() : This app responds 
 
 
 
