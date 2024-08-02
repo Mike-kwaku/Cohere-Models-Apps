@@ -17,6 +17,7 @@ This repository contains the following AI applications built with Cohere [comman
 ## How It Works 
 
 ### Q/A Bot 
+![](gifmaker_me.gif)
 
 
 
