@@ -1,6 +1,6 @@
 # Cohere-RAG-Chatbot
 
-![alt text](https://cdn.sanity.io/images/rjtqmwfu/production/5a374837aab376bb677b3a968c337532ea16f6cb-800x600.png?rect=0,90,800,420&w=1200&h=630)
+![alt text](https://cdn.sanity.io/images/rjtqmwfu/production/5a374837aab376bb677b3a968c337532ea16f6cb-400x400.png?rect=0,90,800,420&w=1200&h=630)
 
 This repository contains the following AI applications built with Cohere [command](https://cohere.com/command?_gl=1*1bccwue*_gcl_au*MTI0ODM1NjY2OS4xNzIwNjIxMjc1*_ga*NDg5MDI2MzAuMTcyMDYyMTI4MQ..*_ga_CRGS116RZS*MTcyMjU4MDUwNi40Ny4wLjE3MjI1ODA1MDYuNjAuMC4w), and [embed](https://cohere.com/embed?_gl=1*5gvy8z*_gcl_au*MTI0ODM1NjY2OS4xNzIwNjIxMjc1*_ga*NDg5MDI2MzAuMTcyMDYyMTI4MQ..*_ga_CRGS116RZS*MTcyMjU4MDYxMi40Ny4wLjE3MjI1ODA2MTIuNjAuMC4w) models.   
 
