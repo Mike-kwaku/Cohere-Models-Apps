@@ -4,9 +4,9 @@ This repository contains the following AI applications built with Cohere [comman
 
 [HealthCare Assistant]() :  This app responds to healthcare queries from users with relevants answers. 
 
-[Q/A Bot]() : This app responds to generic questions from users. 
+[Q/A Bot]() : This app provides answers to generic questions from users. 
 
-[Semantic Search]() : This app responds 
+[Semantic Search]() : This app demonstrates how to improve search accuracy with Cohere embed using Mondb vector search operator.  
 
 
 
