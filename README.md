@@ -1,5 +1,7 @@
 # Cohere-RAG-Chatbot
 
+This repository contains the following AI applications built with Cohere [command](https://cohere.com/command?_gl=1*1bccwue*_gcl_au*MTI0ODM1NjY2OS4xNzIwNjIxMjc1*_ga*NDg5MDI2MzAuMTcyMDYyMTI4MQ..*_ga_CRGS116RZS*MTcyMjU4MDUwNi40Ny4wLjE3MjI1ODA1MDYuNjAuMC4w), 
+
 [HealthCare Assistant]()
 
 [Q/A Bot]() 
