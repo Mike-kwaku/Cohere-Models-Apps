@@ -20,6 +20,8 @@ This repository contains the following AI applications built with Cohere [comman
 ![](qa2.gif)
 
 
+### HealthCare Assistant  
+
 
 
 
