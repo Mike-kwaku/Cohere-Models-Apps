@@ -8,7 +8,7 @@ MONGO_CONN_STR = os.environ["MONGODB_CONNECTION_STR"]
 mongo_client = MongoClient(MONGO_CONN_STR)
 output_collection = mongo_client
 
-def qvs(q, prefilter = {}, postfilter = {},path="embedding",topK=2):
+def qvs(q , path="embedding", topK=2):
     ele = co.embed(model="embed-english-v3.0",input_type="search_document",texts=[q])
     query_embedding = ele.embeddings[0]
     vs_query = {
@@ -47,6 +47,10 @@ with form:
           my_bar.progress((i+1)/1)  
 
 
+
+uri = "mongodb+srv://aboagyemichaelk:9qV2lyTk1wCeZV2Y@test.xsb6c76.mongodb.net/?retryWrites=true&w=majority&ap"
+
+uri = "mongodb+srv://aboagyemichaelk:9qV2lyTk1wCeZV2Y@test.xsb6c76.mongodb.net/?retryWrites=true&w=majority&appName=test"
 
 
 
