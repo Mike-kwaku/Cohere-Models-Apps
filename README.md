@@ -24,6 +24,25 @@ This repository contains the following AI applications built with Cohere [comman
 
 ### HealthCare Assistant  
 
+----------------------------------------------------------------------------------
+export LANGCHAIN_API_KEY=""
+
+
+import getpass
+import os
+from langchain_cohere import ChatCohere
+from langchain_core.messages import HumanMessage
+from langchain_core.messages import AIMessage
+from langchain_core.chat_history import (BaseChatMessageHistory, InMemoryChatMessageHistory)
+from langchain_core.runnables.history import RunnableWithMessageHistory
+
+model = ChatCohere(model="command-r-plus")
+
+prompt = ChatPromptTemplate.from_messages([("system", "You are a helpful assistant. Answer all questions to the best of your ability.")])
+
+
+config = {"configurable": {"session_id": "abc2"}}
+
 
 
 
